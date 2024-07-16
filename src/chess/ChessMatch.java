@@ -42,7 +42,7 @@ public class ChessMatch {
 
     private void validadeSourcePosition(Position position){
         if(!board.thereIsAPiece(position)){
-            throw new ChessException("Não existe peça na posição");
+            throw new ChessException("Não existe peça nessa posição de origem.");
         }
     }
 
